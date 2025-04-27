@@ -142,6 +142,7 @@ Pour évaluer les performances du modèle Whisper (pré-entrainé ou fine-tuné)
 ```bash
 python main.py test --model base --output-file transcription_results.csv
 ```
+NB: Pour le moment, les commandes sont configurés pour tester que les modèles pré-entraînés de Whisper.
 
 <details>
 <summary><b>Options disponibles</b></summary>
