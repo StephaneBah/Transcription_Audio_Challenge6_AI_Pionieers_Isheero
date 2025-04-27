@@ -43,6 +43,11 @@ class WhisperTester:
             contenu_reel = value["contenu"]
             folder = f"{self.audio_path}/{value['identifiant']}"
             
+            # Vérifier si le dossier existe
+            if not os.path.exists(folder):
+                print(f"[INFO] Dossier non trouvé : {folder}, ignoré.")
+                continue
+            
             # Parcourir tous les fichiers audio dans le dossier
             for fname in os.listdir(folder):
                 if fname.endswith(('.wav', '.flac', '.mp3', '.webm')):

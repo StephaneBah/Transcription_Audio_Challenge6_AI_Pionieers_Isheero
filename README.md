@@ -38,7 +38,7 @@ Ce projet utilise le modèle **Whisper** pour effectuer la transcription automat
 <summary><b>🛠️ Environnement requis</b></summary>
 <br>
 
-1. **🐍 Python** : Assurez-vous d'avoir Python 3.8 ou une version ultérieure installée <=3.11
+1. **🐍 Python** : Assurez-vous d'avoir Python 3.10 ou une version ultérieure installée <=3.12
 2. **🖥️ CUDA** : Si vous souhaitez utiliser un GPU, installez CUDA et configurez PyTorch pour l'utiliser.
 3. **🎬 FFmpeg** : Installez FFmpeg pour le traitement des fichiers audio :
    ```bash
@@ -60,7 +60,7 @@ cd Transcription_Audio_Challence6_AI_Pionieers_Isheero
 
 ### Etape 2: Créer un environnement virtuel
 ```bash
-sudo apt install python3.10-venv (optionnel)
+sudo apt install python3.12-venv #(optionnel et dépend de votre version de python)
 python3 -m venv venv
 source venv/bin/activate  # Sur Windows : venv\Scripts\activate
 ```

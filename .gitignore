@@ -1,4 +1,5 @@
 .venv/
 venv/
 __pycache__/
+whisper-tiny-rad-fr/
 

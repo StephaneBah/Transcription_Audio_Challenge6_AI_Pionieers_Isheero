@@ -64,6 +64,10 @@ class WhisperFineTuner:
         records = []
         for idx, meta in dico_corpus.items():
             folder = f"{self.audio_path}/{meta['identifiant']}"
+            if not os.path.exists(folder):  # Vérification de l'existence du dossier
+                print(f"[INFO] Dossier non trouvé : {folder}, ignoré.")
+                continue
+            
             for fname in os.listdir(folder):
                 if fname.endswith(('.wav', '.flac', '.mp3', '.webm')):
                     records.append({

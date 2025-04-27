@@ -72,7 +72,6 @@ jupyterlab==4.4.1
 jupyterlab_pygments==0.3.0
 jupyterlab_server==2.27.3
 jupyterlab_widgets==3.0.14
-keras==3.9.2
 kiwisolver==1.4.8
 lazy_loader==0.4
 libclang==18.1.1
@@ -166,7 +165,7 @@ stack-data==0.6.3
 sympy==1.13.3
 tensorboard==2.19.0
 tensorboard-data-server==0.7.2
-tensorflow==2.19.0
+#tensorflow==2.19.0
 termcolor==3.0.1
 terminado==0.18.1
 threadpoolctl==3.6.0
