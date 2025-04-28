@@ -12,6 +12,8 @@
 
 **[📖 Présentation de l'architecture Whisper](https://presentation-de-larchite-e93v5v7.gamma.site/)**
 
+**[📂 Docs sur Whisper](https://en.wikipedia.org/wiki/Whisper_%28speech_recognition_system%29)**
+
 
 ## 📋 Vue d'ensemble
 
