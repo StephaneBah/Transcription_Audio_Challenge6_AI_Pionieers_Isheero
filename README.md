@@ -113,7 +113,7 @@ Créez un compte sur [HuggingFace](https://huggingface.co)
 Générez un jeton d'API [ici](https://huggingface.co/settings/tokens).
 Insérez dans le fichier `.env` la ligne suivante :
 ```properties
-HUGGINGFACE_TOKEN = votre_jeton_huggingface
+HF_TOKEN = votre_jeton_huggingface
 ```
 
 ## 📝 Utilisation
