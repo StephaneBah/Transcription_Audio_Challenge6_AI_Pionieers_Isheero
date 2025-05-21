@@ -107,6 +107,15 @@ uv pip install git+https://github.com/openai/whisper.git
 ```
 </details>
 
+### Etape 4: Configuration de l'API HuggingFace
+
+Créez un compte sur [HuggingFace](https://huggingface.co)
+Générez un jeton d'API [ici](https://huggingface.co/settings/tokens).
+Insérez dans le fichier `.env` la ligne suivante :
+```properties
+HUGGINGFACE_TOKEN = votre_jeton_huggingface
+```
+
 ## 📝 Utilisation
 
 ### 🔄 Fine-tuning du modèle Whisper
