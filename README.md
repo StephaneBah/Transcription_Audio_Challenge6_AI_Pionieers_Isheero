@@ -10,6 +10,8 @@
 
 **[🔗 Accéder à l'application de collecte d'audio](https://collecte-audio-production-3da5.up.railway.app/)**
 
+**[🚀 Le modèle fine-tuné est disponible ici](https://huggingface.co/StephaneBah/whisper-tiny-rad-fr)**
+
 **[📖 Présentation de l'architecture Whisper](https://presentation-de-larchite-e93v5v7.gamma.site/)**
 
 **[📂 Docs sur Whisper](https://en.wikipedia.org/wiki/Whisper_%28speech_recognition_system%29)**
